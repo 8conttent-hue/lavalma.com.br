@@ -1,0 +1,55 @@
+---
+// Features-J: Bento Grid Layout - Design assimétrico moderno
+interface Item { icon: string; title: string; desc: string; }
+interface Props { title: string; items: Item[]; }
+const { title, items } = Astro.props;
+
+// Função para determinar o span das colunas no grid
+const getColSpan = (index: number) => {
+  if (index === 0) return 'md:col-span-2 md:row-span-2';
+  if (index === 3) return 'md:col-span-2';
+  return 'md:col-span-1';
+};
+---
+<section class="py-24 bg-[#f8fafc]">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="text-center mb-20">
+      <h2 class="text-4xl md:text-6xl font-black text-slate-900 tracking-tighter mb-4">{title}</h2>
+      <div class="flex items-center justify-center gap-2">
+        <span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+        <span class="text-xs font-bold text-slate-400 uppercase tracking-widest">Layout Bento de Alta Performance</span>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 auto-rows-[220px]">
+      {items.slice(0, 6).map((item, i) => (
+        <div class={`group relative bg-white border border-slate-200 rounded-3xl p-8 overflow-hidden transition-all duration-500 hover:shadow-2xl hover:shadow-primary/5 hover:-translate-y-1 ${getColSpan(i)}`}>
+          <!-- Decorative Background on Focus -->
+          <div class="absolute -right-4 -bottom-4 w-32 h-32 bg-primary/5 rounded-full blur-2xl group-hover:bg-primary/10 transition-colors"></div>
+          
+          <div class="relative z-10 h-full flex flex-col">
+            <div class={`inline-flex items-center justify-center rounded-2xl bg-slate-50 text-slate-900 mb-6 transition-all duration-500 group-hover:scale-110 group-hover:bg-primary group-hover:text-white ${i === 0 ? 'w-16 h-16 text-3xl' : 'w-12 h-12 text-xl'}`}>
+              {item.icon}
+            </div>
+            
+            <h3 class={`${i === 0 ? 'text-2xl' : 'text-lg'} font-black text-slate-900 mb-4 tracking-tight leading-none`}>
+              {item.title}
+            </h3>
+            
+            <p class={`text-slate-500 leading-relaxed font-medium ${i === 0 ? 'text-base' : 'text-sm line-clamp-3'}`}>
+              {item.desc}
+            </p>
+
+            {i === 0 && (
+              <div class="mt-auto pt-6">
+                <div class="h-1 w-12 bg-primary/20 rounded-full overflow-hidden">
+                   <div class="h-full w-2/3 bg-primary rounded-full"></div>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Sobre Nós",
+    "description": "Conheça o LAVALMA"
+  },
+  "hero": {
+    "title": "Sobre Nós",
+    "subtitle": "No Lava Alma, acreditamos que a verdadeira beleza vai além da aparência. Estamos comprometidos em oferecer produtos que celebram a individualidade e a diversidade, sempre com responsabilidade ambiental."
+  },
+  "content": "No Lava Alma, nossa missão é transformar a experiência de beleza em algo ético e sustentável. Acreditamos que cada escolha que fazemos pode impactar positivamente o mundo ao nosso redor.",
+  "mission": "Promover a beleza consciente, oferecendo produtos que respeitam o meio ambiente e a vida animal.",
+  "image": "/images/sobre.jpg",
+  "stats": [
+    {
+      "value": "500+",
+      "label": "Artigos"
+    },
+    {
+      "value": "100k+",
+      "label": "Leitores"
+    },
+    {
+      "value": "5",
+      "label": "Redatores"
+    }
+  ],
+  "team": []
+}

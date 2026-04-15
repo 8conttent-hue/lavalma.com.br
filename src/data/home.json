@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "title": "LAVALMA — Bem-vindo ao Lava Alma",
+    "description": "O refúgio para os amantes da beleza ética e sustentável."
+  },
+  "hero": {
+    "title": "Bem-vindo ao Lava Alma",
+    "subtitle": "O refúgio para os amantes da beleza ética e sustentável.",
+    "btnText": "Explore Nossa Coleção",
+    "bgImage": "/images/hero.jpg",
+    "btnLink": "/blog"
+  },
+  "features": {
+    "title": "Nossos Destaques",
+    "items": [
+      {
+        "icon": "🌱",
+        "title": "Beleza Consciente",
+        "desc": "Produtos formulados com ingredientes éticos e veganos, respeitando a natureza e os animais."
+      },
+      {
+        "icon": "♻️",
+        "title": "Embalagens Sustentáveis",
+        "desc": "Nossas embalagens são recicláveis ou biodegradáveis, reduzindo o impacto ambiental."
+      },
+      {
+        "icon": "❤️",
+        "title": "Cuidado com a Alma",
+        "desc": "Cada produto visa nutrir sua autoestima e promover o bem-estar, conectando você à natureza."
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre Nós",
+    "desc": "No Lava Alma, acreditamos que a verdadeira beleza vai além da aparência. Estamos comprometidos em oferecer produtos que celebram a individualidade e a diversidade, sempre com responsabilidade ambiental.",
+    "stats": [
+      {
+        "value": "100%",
+        "label": "Produtos Veganos"
+      },
+      {
+        "value": "0",
+        "label": "Testes em Animais"
+      },
+      {
+        "value": "30+",
+        "label": "Marcas Parceiras"
+      }
+    ],
+    "image": "/images/about.jpg",
+    "btnText": "Saiba Mais",
+    "btnLink": "/sobre"
+  },
+  "posts": {
+    "title": "Últimos Artigos",
+    "limit": 3,
+    "btnText": "Ver Blog",
+    "btnLink": "/blog"
+  }
+}

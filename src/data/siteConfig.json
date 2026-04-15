@@ -1,0 +1,53 @@
+{
+  "name": "LAVALMA",
+  "slug": "lavalma.com.br",
+  "description": "Bem-vindo ao Lava Alma, o refúgio para os amantes da beleza ética e sustentável. Em nosso universo de cosméticos e belezas veganos, acreditamos que é possível alcançar a exuberância sem sacrificar a natureza ou os animais. Cada produto que oferecemos é cuidadosamente selecionado e formulado para realçar sua beleza única, enquanto preserva o equilíbrio ecológico do nosso planeta. Nossa paixão pela beleza consciente é evidente em cada etapa da jornada do Lava Alma. Escolhemos ingredientes éticos, livres de crueldade e de origem vegetal, garantindo que nenhum animal sofra em prol da nossa beleza. Além disso, nossas embalagens são ecologicamente corretas, feitas com materiais recicláveis ou biodegradáveis, contribuindo para a redução do impacto ambiental. No Lava Alma, acreditamos que a beleza vai além da aparência. Buscamos nutrir a alma e a autoestima de nossos clientes, oferecendo uma experiência de bem-estar e conexão com a natureza. Nossos produtos são uma celebração da individualidade e da diversidade, pois acreditamos que a verdadeira beleza está na autenticidade de cada pessoa. Junte-se a nós nessa jornada de transformação consciente da indústria da beleza. Explore nossa ampla gama de cosméticos, desde maquiagens que realçam seus traços únicos até produtos para cuidados pessoais que mimam sua pele e cabelo. Sinta-se confiante ao saber que sua escolha eco-friendly está fazendo a diferença para um futuro mais sustentável. Sinta-se bem, sinta-se belo, sinta-se em harmonia com a natureza. Descubra a beleza que transcende o espelho. Descubra o Lava Alma.",
+  "url": "https://lavalma.com.br",
+  "niche": "Moda e Beleza",
+  "keywords": "Bem vindo ao Lava Alma o refugio para os amantes da beleza",
+  "email": "contato@lavalma.com.br",
+  "palette": "gold",
+  "colors": {
+    "primary": "#ca8a04",
+    "accent": "#92400e",
+    "dark": "#451a03"
+  },
+  "headerContrast": "light",
+  "font": "poppins",
+  "fontFamily": "'Poppins', sans-serif",
+  "fontUrl": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap",
+  "components": {
+    "header": "Header-I",
+    "hero": "Hero-I",
+    "features": "Features-J",
+    "about": "About-B",
+    "posts": "Posts-H",
+    "footer": "Footer-I",
+    "sobre": "Sobre-A",
+    "contato": "Contato-C"
+  },
+  "menu": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Sobre",
+      "href": "/sobre"
+    },
+    {
+      "label": "Contato",
+      "href": "/contato"
+    }
+  ],
+  "social": {
+    "instagram": "",
+    "facebook": "",
+    "twitter": "",
+    "youtube": ""
+  }
+}
